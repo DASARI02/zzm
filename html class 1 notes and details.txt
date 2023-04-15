@@ -1,0 +1,123 @@
+Basic Tags of HTML 
+Heading Tags:
+
+Any document starts with a heading. You can use different size for your heading. 
+HTML has six levels of heading.
+
+Example:
+<html>
+      <head>
+      	<title>HeadingExample</title>
+	<head>
+	<body>
+		<h1>This is Heading 1</h1>
+		<h2>This is heading 2</h2>
+		<h3>This is heading 3</h3>
+		<h4>This is heading 4</h4>
+		<h5>This is Heading 5</h5>
+		<h6>This is Heading 6</h6>
+	<body>
+
+Line Break Tag
+
+the <br>tag insert a single line break. The <br> tag is an empty tag which mean space between.
+
+EX:
+
+<html>
+<body>
+	<h1>The br element</h1>
+
+
+Centering Content 
+
+You can use <center> tag to put any content in the center of page or any table cell (first pic from phone)
+
+Horizontal Lines 
+ 
+Horizontal lines are used to visually break up sections of a document. the <hr> tag creates a line from (second pic from phone)
+
+Nested HTML Elements :
+
+An HTML element is defined by a starting tag. If the element other content, it ends with a closing tag. 
+
+HTML elements can be nested (this means that element can contain other elements). ALL HTML DOCUMENTS consists of nested HTML elements.
+
+EX:
+<html>
+	<head>
+		<title>Nested Elements Example</title>
+	</head>
+	<body>
+		<h1>This is <i>italic</i>heading</h1>
+		<p>THis is<u>underlined</u>paragraph</p>
+	</body>
+</html>
+
+HTML Attributes:
+
+An attribute is used to define the characteristics of an HTML element and is placed inside the element opening tag. HTML attributes provide additional information about HTML elements.
+Attribute are always specified in the start tag. All attributes are made up of two parts: a name and a value. Attribute usally come in name/value pairs like : name="value".
+
+
+example:
+<html>
+	<head>
+		<title>Align Attribute Example</title>
+	</head>
+	<body>
+		<p align="left">This is left aligned</p>
+		<p align="center">This is center aligned</p>
+		<p align="right">This is right aligned</p>
+	</body>
+</html>
+
+for italic we use <i>....</i>
+for bold we use <b>...</b>
+for underline we use<u>...</u>
+for strike text we use <strike>....</strike>
+for superscript text we use <sup>...</sup>
+for subscript text we use <sub>...</sub>
+Deleted and Inserted text 
+The Html <del>element defines text that has been deleted form the document. vice versa for the insertion part too.
+
+ex:
+<p>My favrorite color is <del>blue</del><ins>red </ins></p>
+
+
+
+
+
+Document Refreshing: A <meta> tag can be used to specify a duration after which your web page will keep refreshing autimatically.
+
+HTML Comments:
+
+Comment is piece of code which is ignored by any web browser. It is a good practice to add comments into your HTML code, epecially in complex documents, to indicate sections of a document
+ and any one looking at the code
+
+HTML colours 
+colours are very important to give a good look and feel to your website. you can specify colors on page level using <body> tag or you can set colours for an individual tags using bgcolour attribute
+
+the <body> tag has following attributes which can be used to set differennt colors:
+
+HTML Color coding methods :
+
+There are following three different methods to set colors in your web page:
+-color names- You can specify color names directly like green, blue,red.
+-HEX coe- A six digit code represting the amount of red,green and blue that makes up the color.
+-Color decimal or percentage value:- This value is specified using rgb()property
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
